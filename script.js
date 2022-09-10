@@ -25,9 +25,9 @@ function moveMole() {
 pits.forEach(pit => {
     pit.addEventListener('mousedown', e => {
         if (molePosition == e.target.id) {
-            score++
-
             scoreTxt.innerHTML = score
+            
+            score++
         }
     })
 })
