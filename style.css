@@ -1,0 +1,36 @@
+#game-text-area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#timer-h1 {
+    align-self: flex-start;
+}
+
+#game-grid-area {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    display: grid;
+    width: auto;
+    position: relative;
+    grid-template-columns: repeat(3, 150px);
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.mole {
+    background-image: url(mole.png);
+    background-position-x: -50px;
+}
